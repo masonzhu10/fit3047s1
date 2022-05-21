@@ -1,0 +1,205 @@
+* {
+    font-family: "Halant", serif;
+}
+
+p {
+    text-align: center;
+    margin: 20px auto;
+    line-height: 35px;
+    font-size: 22px;
+}
+
+h2 {
+    font-family: "Sen", sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+}
+li {
+    line-height: 170%;
+    font-size: 22px;
+}
+
+input {
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+.companyName {
+    font-family: "Reem Kufi", sans-serif;
+    text-align: end;
+    letter-spacing: 15px;
+}
+
+.companyIntroContainer {
+    display: flex;
+    margin: 15px auto;
+}
+
+.companyIntro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto 10px;
+}
+
+.companyAccomplishment {
+    margin-top: 20px;
+}
+.kids-img {
+    width: 60%;
+}
+
+.MECP2Container {
+    display: flex;
+    margin: 100px auto;
+    justify-content: space-between;
+}
+.MECP2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.accomplishment-img {
+    width: 33%;
+}
+.logo {
+    width: 7rem;
+}
+
+.social-media-icon {
+    width: 2rem;
+}
+
+.symptomContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px auto;
+}
+.symptomsFeature {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.SymptomList {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.symptom-img {
+    width: 35%;
+    margin: auto 30px;
+}
+.bg-gradient-primary {
+    background-image: linear-gradient(180deg, #f19b49 10%, #f19b49 100%);
+}
+
+table.dataTable thead {
+    font-weight: bold;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.primary {
+    color: white;
+    background-color: #f19b49;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#patientTable_wrapper {
+    margin: 20px 0;
+}
+
+.btn {
+    color: white;
+}
+.btn:hover {
+    color: white;
+}
+
+.nav-link {
+    font-weight: 400;
+}
+
+.posts {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.filterContainer {
+    width: 60%;
+    padding: 20px 20px;
+    background-color: #f7f8fb;
+    display: flex;
+    margin: 20px 0px;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.filterGroup {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.error {
+    font-size: 1rem;
+    width: 100%;
+}
+
+.patientAddInput {
+    width: 80px;
+}
+.PatientAddColumn {
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bear-img {
+    height: 600px;
+}
+.patientInput {
+    width: 400px;
+}
+
+.patientPlaceholder {
+    height: 150px;
+}
+.PatientAddSubmit {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.h-200{
+    height: 30px;
+}
+
+@media (max-width: 768px) {
+    .kids-img, .accomplishment-img, .symptom-img{
+        display: none;
+    }
+    .MECP2 {
+        width: 100%;
+    }
+}
